@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+body{
+font-family:'Roboto' ;
+margin: 0;
+padding: 0;
+}
+
+.entete{
+display: flex;
+width: auto;
+align-items: center;
+justify-content: space-between;
+margin-top: 5vw;
+margin-bottom: 3vw;
+margin-left: 10%;
+margin-right: 20%;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+.entete img{
+width: 70%;
+}
+.entete i{
+  font-size: larger;
+   
+}
+
+img{
+    width: 100%;
+}
+
+
+.menu{
+    font-family: "Shrikhand";
+    top: -15vw;
+    padding: 5vw;
+    position: relative;
+    background-color: #f2f2f2;
+    border-radius: 10vw 10vw 0 0;
+    height: 100%;
+    margin-bottom: 0;
+}
+.title-menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+.title-menu i {
+    font-size:larger;
+}
+.menu p{
+text-transform: uppercase;
+font-weight:0;
+}
+hr{
+    width: 10vw;
+    margin-left: 0;
+    height: 0.8vw;
+    background-color: #99E2D0;
+    border:none;
+    margin-bottom: 5vw;
+}
+.entrée1{
+    font-family: "Roboto";
+    box-shadow:5px 5px 5px #cac1c1;
+    background-color: white;
+    display: block;
+    height:max-content;
+    border-radius: 20px;
+    padding: 5vw;
+    margin-bottom: 5vw;
+
+}
+.desc{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    margin: 0; 
+}
+.entrée1 h3{
+    margin: 0;
+}
+.entrée1 p{
+    margin: 0;
+    font-size:medium;
+    text-transform: none;
+}
+.entrée1 h4{
+    margin: 0;
+}
+
+
+
+.entrée2{
+    font-family: "Roboto";
+    box-shadow:5px 5px 5px #cac1c1;
+    background-color: white;
+    display: block;
+    height:max-content;
+    border-radius: 20px;
+    padding: 5vw;
+        margin-bottom: 5vw;
+
+}
+
+.entrée2 h3{
+    margin: 0;
+}
+.entrée2 p{
+    margin: 0;
+    font-size:medium;
+    text-transform: none;
+}
+.entrée2 h4{
+    margin: 0;
+}
+
+.entrée3{
+    font-family: "Roboto";
+    box-shadow:5px 5px 5px #cac1c1;
+    background-color: white;
+    display: block;
+    height:max-content;
+    border-radius: 20px;
+    padding: 5vw;
+        margin-bottom: 5vw;
+
+}
+
+.entrée3 h3{
+    margin: 0;
+}
+.entrée3 p{
+margin: 0;
+font-size:medium;
+text-transform: none;
+white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
+}
+.entrée3 h4{
+    margin: 0;
+}
+
+/*plats*/
+
+
+.plat1{
+    font-family: "Roboto";
+    box-shadow:5px 5px 5px #cac1c1;
+    background-color: white;
+    display: block;
+    height:max-content;
+    border-radius: 20px;
+    padding: 5vw;
+    margin-bottom: 5vw;
+}
+
+.plat1 h3{
+    margin: 0;
+}
+.plat1 p{
+    margin: 0;
+    font-size:medium;
+    height: min-content;
+    text-transform: none;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.plat1 h4{
+    margin: 0;
+}
+
+
+.plat2{
+    font-family: "Roboto";
+    box-shadow:5px 5px 5px #cac1c1;
+    background-color: white;
+    display: block;
+    height:max-content;
+    border-radius: 20px;
+    padding: 5vw;
+    margin-bottom: 5vw;
+}
+
+.plat2 h3{
+    margin: 0;
+}
+.plat2 p{
+    margin: 0;
+    font-size:medium;
+    height: min-content;
+    text-transform: none;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.plat2 h4{
+    margin: 0;
+}
+
+
+.plat3{
+    font-family: "Roboto";
+    box-shadow:5px 5px 5px #cac1c1;
+    background-color: white;
+    display: block;
+    height:max-content;
+    border-radius: 20px;
+    padding: 5vw;
+    margin-bottom: 5vw;
+}
+
+.plat3 h3{
+    margin: 0;
+}
+.plat3 p{
+    margin: 0;
+    font-size:medium;
+    height: min-content;
+    text-transform: none;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.plat3 h4{
+    margin: 0;
+}
+
+
+
+/*Dessert*/
+
+.dessert1{
+    font-family: "Roboto";
+    box-shadow:5px 5px 5px #cac1c1;
+    background-color: white;
+    display: block;
+    height:max-content;
+    border-radius: 20px;
+    padding: 5vw;
+    margin-bottom: 5vw;
+}
+
+.dessert1 h3{
+    margin: 0;
+}
+.dessert1 p{
+    margin: 0;
+    font-size:medium;
+    height: min-content;
+    text-transform: none;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.dessert1 h4{
+    margin: 0;
+}
+ 
+.dessert2{
+    font-family: "Roboto";
+    box-shadow:5px 5px 5px #cac1c1;
+    background-color: white;
+    display: block;
+    height:max-content;
+    border-radius: 20px;
+    padding: 5vw;
+    margin-bottom: 5vw;
+}
+
+.dessert2 h3{
+    margin: 0;
+}
+.dessert2 p{
+    margin: 0;
+    font-size:medium;
+    height: min-content;
+    text-transform: none;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.dessert2 h4{
+    margin: 0;
+}
+ 
+
+.dessert3{
+    font-family: "Roboto";
+    box-shadow:5px 5px 5px #cac1c1;
+    background-color: white;
+    display: block;
+    height:max-content;
+    border-radius: 20px;
+    padding: 5vw;
+    margin-bottom: 5vw;
+}
+
+.dessert3 h3{
+    margin: 0;
+}
+.dessert3 p{
+    margin: 0;
+    font-size:medium;
+    height: min-content;
+    text-transform: none;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.dessert3 h4{
+    margin: 0;
+}
+
+
+
+
+/*Footer*/
+
+footer{
+ position:relative;
+background-color: rgb(32, 31, 31);
+padding: 5vw;
+margin: 0;
+display: block;
+width: 100%;
+}
+ footer h5{
+color: rgb(238, 230, 230);
+font-size:large;
+font-weight:normal;
+font-family: "Roboto";
+}
+.footer-reaturant{
+display: flex;
+align-items: center;
+height:min-content;
+}
+.footer-reaturant i{
+color: rgb(238, 230, 230) ;
+margin-right: 10px;
+}
+footer h1{
+font-family: "Shrikhand";
+color: white;
+height: min-content;
+font-size:x-large;
+font-weight:200;
+}
+.footer-partener{
+display:flex;
+align-items: center;
+height:4vw;
+}
+.footer-partener i{
+color: white;
+margin-right: 10px;
+}
