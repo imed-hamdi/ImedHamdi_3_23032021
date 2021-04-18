@@ -2,14 +2,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
 
 body{
-    margin: 0;
+    margin: 0 ;
     padding: 0;
     font-family: "Roboto";
+
+    
   
 }
 header{
     display: flex;
     justify-content: center;
+    max-width: 1300px;
+    margin: auto;
 }
 header img{
     padding-top: 4vw ;
@@ -61,11 +65,20 @@ margin-bottom: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    max-width: 1300px;
+    margin:auto;
 }
 #title{
+    max-width: 1300px;
     font-weight: bolder;
     font-size: larger;
-    margin-left: 5%;
+    margin:auto;
+    padding-left: 5%;
+    padding-bottom: 5vw;
+    }
+    nav{
+        max-width: 1300px;
+        margin: auto;
     }
 .btn-nav{
     position: relative;
@@ -133,6 +146,7 @@ text-decoration:none;
     width: 100%;
     position: relative;
     height:300px;
+    
    
 }
 .la-note{
@@ -155,7 +169,7 @@ img{
     width: 100%;
     border-radius: 20px 20px 0 0;
     margin-bottom: 0;
-    height: 70%;
+    height: 80%;
     object-fit: cover;
 }
 .overlay-resto{
@@ -163,7 +177,7 @@ img{
     grid-template-columns: 50% 50%;
     grid-template-rows: 50% 50%;
     position: absolute; 
-    bottom: 5vw;      
+    bottom: 2vw;      
     background-color:white;					
     color: black;
     height:auto;
