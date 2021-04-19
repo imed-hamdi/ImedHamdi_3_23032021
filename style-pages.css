@@ -4,7 +4,7 @@ body{
 font-family:'Roboto' ;
 margin: 0 auto;
 padding: 0;
-max-width: 1300px;
+max-width: 1100px;
 }
 header{
 display: flex;
@@ -28,7 +28,7 @@ header i{
    
 }
 
-img{
+.img-resto{
     width: 100%;
 }
 
@@ -217,4 +217,44 @@ footer{
     footer i{
     color: white;
      margin-right: 10px;
+    }
+    @media screen and (min-width:900px){
+       .card{ display: grid;
+        grid-template-columns:auto auto ;
+        grid-template-rows:5vw 5vw ;
+        grid-gap:20px;
+       
+       }
+       .title-menu{
+           width: 50%;
+           margin: auto;
+       }
+       .entrée{
+          padding-top: 0.5vw;
+          padding-bottom: 0.5vw;
+       }
+       .plat{
+        padding-top: 0.5vw;
+        padding-bottom: 0.5vw;
+       }
+       .dessert{
+        padding-top: 0.5vw;
+        padding-bottom: 0.5vw;
+       }
+       .img-resto{
+         width: 100%;
+           object-fit: cover;
+           height: 50%;
+           overflow: hidden;
+       }
+      #btn-commander{
+          width: 30%;
+         padding: 1vw;
+      }
+      footer{
+          padding-bottom: 1vw;
+          padding-top: 1vw;
+      }
+      
+
     }
