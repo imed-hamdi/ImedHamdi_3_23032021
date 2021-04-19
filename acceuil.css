@@ -5,6 +5,50 @@ margin: 0 ;
 padding: 0;
 font-family: "Roboto";
 }
+.spinner{
+    width:50px;
+    height:50px;
+    border-top:10px solid yellow;
+    border-bottom:10px solid green;
+    border-left:10px solid ;
+    border-right:10px solid blue;
+    animation: spinner  3s linear 1;
+    animation-fill-mode:forwards;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:50%;
+    border-radius:50%;
+  }
+  
+  .spin{
+    position:fixed;
+    height: 100%;
+    bottom:0; right:0; left:0; top:0;
+    background-color:teal;
+    animation: spin 3s linear 1;
+     animation-fill-mode:forwards;
+     z-index: 1000;
+  }
+  @keyframes spinner{
+    0%{
+      transform:rotate(0deg);
+      opacity:1;
+    }
+    100%{
+      transform:rotate(360deg);
+     opacity:0;
+    }
+  }
+  @keyframes spin{
+    0%{
+      opacity:1;
+    }
+    100%{
+      opacity:0;
+      z-index: 0;
+    }
+  }
+
 header{
 display: flex;
 justify-content: center;
