@@ -4,7 +4,7 @@ body{
 font-family:'Roboto' ;
 margin: 0 auto;
 padding: 0;
-max-width: 1100px;
+max-width: 950px;
 }
 header{
 display: flex;
@@ -58,7 +58,7 @@ text-transform: uppercase;
 font-weight:0;
 }
 hr{
-    width: 10vw;
+    width: 10%;
     margin-left: 0;
     height: 0.8vw;
     background-color: #99E2D0;
@@ -212,7 +212,8 @@ footer{
     }
     .footer-partener{
     display:flex;
-    align-items: center;height:4vw;
+    align-items: center;
+    height:4vw;
     }
     footer i{
     color: white;
@@ -232,20 +233,27 @@ footer{
        .entrée{
           padding-top: 0.5vw;
           padding-bottom: 0.5vw;
+          padding-right: 1.5vw;
+       padding-left: 1.5vw;
+        
        }
        .plat{
         padding-top: 0.5vw;
         padding-bottom: 0.5vw;
+       padding-right: 1.5vw;
+       padding-left: 1.5vw;
        }
+      
        .dessert{
         padding-top: 0.5vw;
         padding-bottom: 0.5vw;
+        padding-right: 1.5vw;
+       padding-left: 1.5vw;
        }
        .img-resto{
          width: 100%;
            object-fit: cover;
-           height: 50%;
-           overflow: hidden;
+           
        }
       #btn-commander{
           width: 30%;
@@ -254,7 +262,18 @@ footer{
       footer{
           padding-bottom: 1vw;
           padding-top: 1vw;
+          height: min-content;
       }
-      
+      header{
+          margin-top: 2vw;
+          margin-bottom: 2vw;
+      }
+      .menu{
+          margin-top: -20vw;
+          
+      }
+      hr{
+          width: 5%;
+      }
 
     }
