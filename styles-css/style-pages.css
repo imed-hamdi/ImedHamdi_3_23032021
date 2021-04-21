@@ -96,11 +96,38 @@ opacity:1;
 .entrée:hover .desc{
     width: 82%;
 }
+.entrée:hover h4{
+    padding-left: 2vw;
+}
+.plat:hover h4{
+    padding-left: 2vw;
+}
+.dessert:hover h4{
+    padding-left: 2vw;
+}
 .plat:hover .desc{
     width: 82%;
 }
 .dessert:hover .desc{
     width: 82%;
+}
+.entrée:hover h3{
+white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
+width: 60%;
+}
+.dessert:hover h3{
+white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
+width: 60%;
+}
+.plat:hover h3{
+white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
+width: 60%;
 }
 
 .icon i{
