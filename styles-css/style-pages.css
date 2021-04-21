@@ -93,6 +93,16 @@ opacity:1;
  width:70px;
  transition: 0.6s linear;
 }
+.entrée:hover .desc{
+    width: 82%;
+}
+.plat:hover .desc{
+    width: 82%;
+}
+.dessert:hover .desc{
+    width: 82%;
+}
+
 .icon i{
 display:flex;
 align-items: center;
