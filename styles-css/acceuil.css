@@ -254,7 +254,7 @@ box-shadow:5px 5px 5px #cac1c1;
 .overlay-resto p{
 font-weight: normal;
 grid-column: 1/2;
-padding:auto;
+padding:0.2vw;
 }      
 .overlay-resto i{
 grid-column: 2/3;
