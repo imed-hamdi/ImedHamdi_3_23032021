@@ -33,12 +33,12 @@ width: 100%;
 
 .menu{
 font-family: "Shrikhand";
-margin-top: -15v;
+margin-top: -15vw;
 padding: 5vw;
 position: relative;
 background-color: #f2f2f2;
 border-radius: 10vw 10vw 0 0;
-height: 100%;
+height: auto;
 margin-bottom: 0;
 }
 .title-menu{
@@ -95,21 +95,27 @@ opacity:1;
 }
 .entrée:hover .desc{
     width: 82%;
+   
 }
 .entrée:hover h4{
-    padding-left: 2vw;
+    margin-left: 2vw;
+    padding-right: 2vw;
 }
 .plat:hover h4{
-    padding-left: 2vw;
+  margin-left: 2vw;
+    padding-right: 2vw;
 }
 .dessert:hover h4{
-    padding-left: 2vw;
+    margin-left: 2vw;
+    padding-right: 2vw;
 }
 .plat:hover .desc{
     width: 82%;
+    
 }
 .dessert:hover .desc{
     width: 82%;
+    
 }
 .entrée:hover h3{
 white-space: nowrap;
