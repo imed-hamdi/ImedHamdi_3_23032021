@@ -319,6 +319,11 @@ box-shadow:5px 5px 5px #cac1c1;
 margin-top: auto;
 margin-bottom: auto;
 }
+#btn-commander:hover{
+    background: linear-gradient(#f591d9,#ccb2ec);
+    box-shadow:7px 7px 7px #7a7676;   
+    cursor: pointer; 
+}
 .btn{
 display: flex;
 align-items: center;
