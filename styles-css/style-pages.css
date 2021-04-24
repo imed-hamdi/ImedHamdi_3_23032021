@@ -47,8 +47,26 @@ justify-content: space-around;
 align-items: center;
    
 }
-.title-menu i {
+.Like{
+    position: relative;
+}
+.heart-nbg {
 font-size:larger;
+}
+.heart-bg{ 
+ color:#f6f6f6;
+opacity: 0;
+top: 0;right: 0;left: 0;bottom: 0;
+position: absolute;
+font-size:larger;
+}
+.heart-bg:hover{
+    transition: all 0.5s;
+    opacity: 1;
+    background: linear-gradient(#FF79DA,#9356DC);
+    background-clip: border-box;
+    -webkit-background-clip:text;
+    color: transparent;
 }
 .menu p{
 text-transform: uppercase;

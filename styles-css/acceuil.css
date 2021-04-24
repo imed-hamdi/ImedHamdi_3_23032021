@@ -267,23 +267,18 @@ margin-top: auto;
 background-color: transparent;
 font-size: x-large;
 }
-.heart-bg{
-  opacity: 0;
+.heart-bg{ 
+ color:#f6f6f6;
+opacity: 0;
 }
 .heart-bg:hover{
-  transition-duration: .25s;
-  background-color: #9356DC ;
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  mix-blend-mode: lighten;
+  transition: all 0.5s;
   opacity: 1;
- color: #9356DC;
+  background: linear-gradient(#FF79DA,#9356DC);
+  background-clip: border-box;
+  -webkit-background-clip:text;
+  color: transparent;
 }
-
 
 
 footer{
