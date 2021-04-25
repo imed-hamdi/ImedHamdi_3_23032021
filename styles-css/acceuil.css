@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
-<<<<<<< HEAD
 body{
 margin: 0 auto ;
 padding: 0;
@@ -323,7 +322,6 @@ color: white;
         padding-bottom: 1vw;
         padding-top: 1vw;
     }
-=======
 body {
 	margin: 0 auto;
 	padding: 0;
@@ -608,17 +606,13 @@ img {
 }
 
 .heart-bg:hover {
-	transition-duration: .25s;
-	background-color: #9356DC;
-	position: absolute;
-	height: 100%;
-	width: 100%;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	mix-blend-mode: lighten;
-	opacity: 1;
-	color: #9356DC;
+	transition: all 0.5s;
+    opacity: 1;
+    background: linear-gradient(#FF79DA,#9356DC);
+    background-clip: border-box;
+    -webkit-background-clip:text;
+    color: transparent;
+}
 }
 
 footer {
@@ -668,5 +662,5 @@ footer i {
 		padding-bottom: 1vw;
 		padding-top: 1vw;
 	}
->>>>>>> 681a7a262de4be7acfa65386b9558ed7ae3e4f6c
+}
 }
