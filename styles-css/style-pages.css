@@ -4,7 +4,7 @@ body{
 font-family:'Roboto' ;
 margin: 0 auto;
 padding: 0;
-max-width: 950px;
+
 }
 header{
 display: flex;
@@ -361,7 +361,7 @@ padding: 5vw;
 margin: auto;
 display: block;
 height: auto;
-max-width: 1300px;
+
 }
  footer h5{
 color: rgb(238, 230, 230);
@@ -390,11 +390,8 @@ color: white;
 margin-right: 10px;
 }
 @media screen and (min-width:900px){
-.card{ display: grid;
-grid-template-columns:auto auto ;
-grid-template-rows:5vw 5vw ;
-grid-gap:20px;
-       
+.card{
+    width: auto;
 }
 .title-menu{
 width: 50%;
@@ -404,16 +401,14 @@ margin: auto;
 padding-top: 0.5vw;
 padding-bottom: 0.5vw;
 padding-right: 1.5vw;
-padding-left: 1.5vw;
-        
+padding-left: 1.5vw;       
 }
 .plat{
 padding-top: 0.5vw;
 padding-bottom: 0.5vw;
 padding-right: 1.5vw;
 padding-left: 1.5vw;
- }
-      
+}    
 .dessert{
 padding-top: 0.5vw;
 padding-bottom: 0.5vw;
@@ -423,23 +418,52 @@ padding-left: 1.5vw;
 .img-resto{
 width: 100%;
 object-fit: cover;
+height: 30vw;
 }
 #btn-commander{
 width: 30%;
 padding: 1vw;
+margin-top: 0;
 }
 footer{
 padding-bottom: 1vw;
 padding-top: 1vw;
-height: min-content;
+padding-right: 0;
+width: auto;
 } 
 header{
 margin-top: 2vw;
 margin-bottom: 2vw;
+width: 50%;
+}
+header img{
+width: 40%;
 }
 .menu{
-margin-top: -20vw;
+margin-top: -5vw;
+margin-bottom: 0;
+padding-bottom: 0;
+}
+.container-global{
+display: grid;
+grid-template-columns: repeat(auto-fill,30%);
+justify-content: center;
+grid-gap:30px;
+justify-content: center;
+margin: auto;
+margin-top: 5vw;
+}
+.container{
+    display: block;
 }
 hr{
-width: 5%;}
+width: 10%;
+height:0.5vw;
+}
+.heart-bg{
+    font-size: xx-large;
+}
+.heart-nbg{
+    font-size: xx-large;
+}
 }
